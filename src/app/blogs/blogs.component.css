@@ -1,0 +1,108 @@
+/* ************************************************** */
+.blogSection{
+     margin-top: -70px;
+     z-index: -1;
+}
+
+.careersBackgroundImage {
+    background-image: url('http://wahabali.com/work/copious/images/latest_news_page_4.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.careersBackColor {
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 140px 0px 0px 0px;
+}
+
+.careers h1 {
+    text-align: center;
+    font-size: 53px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.careers p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.blogCardSection h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #ef4136;
+}
+
+.blogCardSection h5 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5px;
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.blogCardStyle {
+    padding: 10px 0px;
+}
+
+.blogCardStyle img {
+    width: 100%;
+    height: 190px;
+}
+
+.blogCardStyle h5 {
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.blogCardStyle h5 a {
+    text-decoration: none;
+    color: #2966be;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .careersBackgroundImage {
+        height: 220px;
+    }
+
+    .careersBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .formImg {
+        height: 300px;
+    }
+
+    .careers {
+        padding: 0px 7px;
+    }
+
+    .careers h1 {
+        font-size: 33px;
+    }
+
+    .careers p {
+        display: none;
+    }
+
+    .blogCardSection h5 {
+        font-size: 25px;
+    }
+    
+}
+
+

@@ -1,0 +1,180 @@
+/* *************************************************** */
+
+.contactSection{
+      margin-top: -70px;
+      z-index: -1px;
+}
+
+.contactBackgroundImage {
+     background-image: url('../../assets/images/contactImages/page-banner-1.jpg');
+     height: 400px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: top;
+     position: relative;
+}
+
+.contactBackColor {
+     position: absolute;
+     background: #00000091;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     padding: 140px 0px 0px 0px;
+}
+
+
+.contact h1 {
+     text-align: center;
+     font-size: 53px;
+     font-family: 'ABeeZee', sans-serif;
+     color: #fff;
+     font-weight: 600;
+}
+
+.contact p {
+     text-align: center;
+     color: #fff;
+     font-size: 22px;
+     font-family: 'ABeeZee', sans-serif;
+}
+
+.leftContact {
+     text-align: justify;
+     padding: 0px 10px;
+}
+
+.leftContact h4 {
+     font-size: 20px;
+     color: #ef4136;
+     text-transform: uppercase;
+     padding-bottom: 15px;
+}
+
+.leftContact h2 {
+     font-size: 43px;
+     font-family: 'ABeeZee', sans-serif;
+     color: #0e1032;
+     font-weight: 600;
+}
+
+.rightContact {
+     padding: 10px 20px;
+     box-shadow: 0px 10px 30px rgb(4 33 63 / 5%);
+}
+
+.rightContact p {
+     font-size: 15px;
+     text-align: justify;
+}
+
+
+.rightContact h3 {
+     font-size: 22px;
+}
+
+.rightContact i {
+     color: #0e1032;
+     font-size: 32px;
+     padding-right: 10px;
+}
+
+.rightContact h3 {
+     font-size: 24px;
+}
+
+
+
+/* map section start here */
+
+.map {
+     position: relative;
+}
+
+
+.contactForm h5 {
+     font-size: 20px;
+     color: #ef4136;
+     text-transform: uppercase;
+     padding-bottom: 5px;
+}
+
+.contactForm h3 {
+     font-size: 43px;
+     font-family: 'ABeeZee', sans-serif;
+     color: #0e1032;
+     font-weight: 600;
+     padding-bottom: 10px;
+}
+
+.contactForm {
+     width: 35%;
+     position: absolute;
+     left: 10%;
+     top: 0%;
+     background-color: #fff;
+     padding: 20px 30px 30px 30px;
+}
+
+
+.contactForm input {
+     margin-bottom: 11px;
+     width: 100%;
+     border-radius: 2px;
+     outline: none;
+     padding: 7px 10px;
+     border: none;
+     border: 0.5px solid #44444459;
+     font-size: 17px;
+     color: #444444e0;
+}
+
+.contactForm textarea {
+     border: none;
+     outline: none;
+     border: 0.5px solid #44444459;
+     padding: 7px 10px;
+     font-size: 17px;
+     color: #444444e0;
+     width: 100%;
+     height: 140px;
+}
+
+#submitBtn {
+     background: #ef4136 none repeat scroll 0 0;
+     border: medium none;
+     color: #ffffff;
+     font-weight: 600;
+     padding: 10px 25px;
+     text-transform: uppercase;
+     margin: 10px 0px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+     .contactBackgroundImage {
+          height: 220px;
+     }
+
+     .contactBackColor {
+          padding: 80px 0px 0px 0px;
+     }
+
+     .contact {
+          padding: 0px 7px;
+     }
+
+     .contact h1 {
+          font-size: 33px;
+     }
+
+     .contact p {
+          display: none;
+     }
+
+}
+
+/* map section end here */
+

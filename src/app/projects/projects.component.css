@@ -1,0 +1,147 @@
+/* ************************************************** */
+.associatesHeaderSection{
+    margin-top: -70px;
+    z-index: -1;
+}
+
+.associatesBackgroundImage {
+    background-image: url('../../assets/images/ProjectImages/projectImg.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.associatesBackColor {
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 140px 0px 0px 0px;
+}
+
+.associates h1 {
+    text-align: center;
+    font-size: 53px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.associates p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.associatesSection p {
+    text-align: center;
+    font-size: 30px;
+    color: #ef4136;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+
+.projectHeading {
+    text-align: center;
+}
+
+.projectHeading h5 {
+    font-size: 20px;
+    color: #ef4136;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.projectHeading h3 {
+    font-size: 33px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #0e1032;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+/* .allProject label{
+    font-size: 20px;
+    margin-right: 13px;
+}
+
+.allProject select{
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-color: #f8f8f8;
+    background-color: #f8f8f8;
+    color: #878787;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 13px 12px;
+    border-radius: 3px;
+} */
+
+
+
+.projectImages {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.projectImages img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.cardImage {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.cardImage:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardImage img {
+    width: 100%;
+    height: 93px;
+    padding: 7px 8px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .associatesBackgroundImage {
+        height: 220px;
+    }
+
+    .associatesBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .associates {
+        padding: 0px 7px;
+    }
+
+    .associates h1 {
+        font-size: 33px;
+    }
+
+    .associates p {
+        display: none;
+    }
+
+    .projectImages img {
+        width: 100%;
+        height:200px;
+    }
+
+}
+

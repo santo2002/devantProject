@@ -1,0 +1,344 @@
+/* ************************************************** */
+
+.associatesHeaderSection {
+    margin-top: -70px;
+    z-index: -1;
+}
+
+.associatesBackgroundImage {
+    background-image: url('../../assets/images/aboutImages/jason-goodman-bzqU01v-G54-unsplash.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.associatesBackColor {
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 140px 0px 0px 0px;
+}
+
+.associates h1 {
+    text-align: center;
+    font-size: 53px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.associates p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.associatesSection p {
+    text-align: center;
+    font-size: 30px;
+    color: #ef4136;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.aboutLeftSection h2 {
+    font-size: 23px;
+    color: #ef4136;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.aboutLeftSection p {
+    color: #6c6c6c;
+    font-size: 15px;
+}
+
+
+.scrollCard {
+    padding: 30px 0px 30px 0px;
+}
+
+.styleScrollCard {
+    padding: 10px;
+}
+
+.scrollImgStyle img {
+    width: 100%;
+    height: 330px;
+}
+
+.scrollTextCard {
+    background: #80808017;
+    width: 100%;
+    height: 330px;
+}
+
+.styleScrollCard2 {
+    background: #ef4136;
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+}
+
+.scrollTextCard .scrollText {
+    padding: 32px 30px;
+}
+
+.scrollText .name {
+    color: #ef4136;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.scrollText h5 {
+    font-weight: 600;
+    padding-top: 21px;
+}
+
+.scrollText .desc {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #ef4136;
+}
+
+.rightScrollText {
+    padding: 20px 20px;
+}
+
+.rightScrollText h4 {
+    color: #fff;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.rightScrollText .missionText {
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.missionText2 i {
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 22px;
+    /* background-color: #2966be; */
+    border-radius: 5px 10px 60px 10px;
+    margin-right: 10px;
+}
+
+.missionText2 p {
+    font-size: 13px;
+    /* line-height: 17px; */
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .associatesBackgroundImage {
+        height: 220px;
+    }
+
+    .associatesBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .associates p {
+        display: none;
+    }
+
+    .scrollImgStyle img {
+        height: 230px;
+    }
+
+    .scrollTextCard {
+        height: 230px;
+    }
+
+    .styleScrollCard2 {
+        height: auto;
+    }
+
+    .scrollTextCard .scrollText {
+        padding: 22px 10px;
+    }
+
+    .scrollText .name {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .scrollText h5 {
+        font-weight: 600;
+        padding-top: 7px;
+        font-size: 15px;
+    }
+
+    .scrollText .desc {
+        display: none;
+    }
+
+}
+
+/* cardSection end here */
+
+
+
+
+/* work process start here  */
+.workProcess {
+    text-align: center;
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.workProcess .processText {
+    font-size: 20px;
+    color: #ef4136;
+    text-transform: uppercase;
+}
+
+.workProcess h1 {
+    font-size: 43px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #0e1032;
+    font-weight: 600;
+}
+
+.successCard {
+    box-shadow: 0px 5px 5px #5555;
+    width: 100%;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.successCard .successCardHead {
+    display: flex;
+}
+
+.successCardImg {
+    background: #ef4136;
+    padding: 20px 20px;
+}
+
+.successStep {
+    background: #0e10322e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.successStep p {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.successCardText {
+    padding: 25px 10px 0px 10px;
+}
+
+
+.successCardText h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.successCardText P {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+    .workProcess h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .workProcess {
+        display: none;
+    }
+}
+
+
+/* work process end here  */
+
+
+/* company overview Section start hare */
+.overViewSection {
+    margin-top: 80px;
+}
+
+.overViewSection .headText {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    margin-bottom: 3px;
+}
+
+.overViewSection h2 {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+}
+
+.leftText p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.leftRivewCard {
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 30px;
+    border-left: 6px solid #ef4136;
+}
+
+.leftRivewCard p {
+    font-style: italic;
+    font-size: 17px;
+    padding: 18px 22px;
+}
+
+.rightView img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .overViewSection {
+        margin-top: 20px;
+    }
+}
+
+/* company overview Section end hare */
+
+.cardImage {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.cardImage:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardImage img {
+    width: 100%;
+    height: 93px;
+    padding: 7px 8px;
+}

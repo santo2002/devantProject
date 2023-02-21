@@ -1,0 +1,128 @@
+/* ************************************************** */
+.careerSection{
+     margin-top: -70px;
+     z-index: -1px;
+}
+.careersBackgroundImage {
+    background-image: url('../../assets/images/contactImages/25.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.careersBackColor {
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 140px 0px 0px 0px;
+}
+
+.careers h1 {
+    text-align: center;
+    font-size: 53px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.careers p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+/* ******************** */
+.formImg {
+    background-image: url('../../assets/images/contactImages/windows-5EQkyNai6L0-unsplash1.jpg');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imageBackColor {
+    width: 100%;
+    height: 100%;
+    background: #0e103269;
+    top: 0px;
+}
+
+.formSection {
+    padding: 10px 25px;
+}
+
+.formSection .nameEmail {
+    display: flex;
+}
+
+
+.formSection input,
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-color: #f8f8f8;
+    background-color: #f8f8f8;
+    color: #878787;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 13px 12px;
+    border-radius: 3px;
+}
+
+.buttonForm {
+    width: 200px;
+    background: #ef4136;
+    border-radius: 4px;
+}
+
+.buttonForm button {
+    color: #fff;
+    font-size: 19px;
+    padding: 4px 68px;
+}
+
+@media only screen and (max-width: 767px) {
+    .careersBackgroundImage {
+        height: 220px;
+    }
+
+    .careersBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .formImg {
+        display: none;
+    }
+
+    .careers {
+        padding: 0px 7px;
+    }
+
+    .careers h1 {
+        font-size: 33px;
+    }
+
+    .careers p {
+        display: none;
+    }
+
+    .formSection .nameEmail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonForm{
+        width: 100%;
+        text-align: center;
+    }
+}
+

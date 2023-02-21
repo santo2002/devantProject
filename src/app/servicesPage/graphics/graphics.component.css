@@ -1,0 +1,128 @@
+.graphicSection {
+    margin-top: -70px;
+}
+
+.careersBackgroundImage {
+    background-image: url('../../../assets/images/graphicsImg/graphicBanner.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+
+.careersBackColor {
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 140px 0px 0px 0px;
+}
+
+.careers h1 {
+    text-align: center;
+    font-size: 53px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.careers p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.heading h4 {
+    color: #ef4136;
+    font-size: 18px;
+}
+
+.heading h3 {
+    color: #0e1032;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cardStyle {
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.cardStyle img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardText {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.cardText p {
+    color: #6c6c6c;
+    line-height: 2;
+}
+
+.cardStyle:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* slider section start here */
+
+
+.cardImage {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-bottom: 20px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.cardImage:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardImage img {
+    width: 100%;
+    height: 93px;
+    padding: 7px 8px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .careersBackgroundImage {
+        height: 220px;
+    }
+
+    .careersBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .careers {
+        padding:0px 7px;
+    }
+
+    .careers h1 {
+        padding-top: 25px;
+        font-size: 28px;
+    }
+
+    .careers p {
+        display: none;
+    }
+
+}

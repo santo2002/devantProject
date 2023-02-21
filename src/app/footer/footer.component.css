@@ -1,0 +1,128 @@
+.footerSection {
+    background-color: #0e1032f0;
+    margin-top: 45px;
+    padding: 70px 0px;
+}
+
+.footerSection .text1 {
+    color: #fff;
+    padding: 26px 0px 0px 0px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footerIcon {
+    padding-top: 15px;
+}
+
+.footerIcon a {
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+.footerIcon a i {
+    color: #fff;
+}
+
+.midFooter h3 {
+    color: #fff;
+    font-size: 21px;
+    padding: 0px 0px 20px 28px;
+    font-weight: bold;
+}
+
+.midFooter ul a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.midFooter ul a li {
+    color: #fff;
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: 300px;
+    font-size: 16px;
+}
+
+.rightFooter h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+
+
+.footerEmail {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rightFooter .footerEmail i {
+    color: #fff;
+    padding: 12px 6px;
+    font-size: 28px;
+}
+
+.footerEmail h3 {
+    font-size: 17px;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+}
+
+.footerEmail p {
+    font-size: 17px;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+    margin-top: -5px;
+}
+
+
+
+/* footer section end here */
+
+/* footer section end here */
+.footerButton {
+    background: #0e1032;
+    padding: 20px 0px 10px 0px;
+}
+
+.footerButtonText {
+    display: flex;
+}
+
+.copyRightText {
+    color: #fff;
+}
+
+.footerButtonText p a {
+    text-decoration: none;
+    padding-right: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .footerSection {
+        padding: 40px 0px 10px 0px;
+    }
+    .midFooter {
+        margin-top: 15px;
+    }
+    .rightFooter {
+        padding: 24px 21px;
+    }
+    .footerButtonText {
+       display: none;
+    }
+    .copyRightText{
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+}
+

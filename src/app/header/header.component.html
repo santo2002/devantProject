@@ -1,0 +1,232 @@
+<!-- header section start here -->
+
+<div class="headerBackGround">
+    <div class="container">
+        <div class="headerSection">
+            <div class="leftText">
+                <p>We have over 4 years of experience.</p>
+            </div>
+            <div class="rightHeader">
+                <div class="icon">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="text">
+                    <p>(+033) 4065 8041</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerButtom">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <img src="../../assets/images/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="contactIcon">
+                        <ul>
+                            <li>
+                                <div class="icon_1">
+                                    <img src="../../assets/images/call.png" alt="call">
+                                </div>
+                                <div class="contact">
+                                    <h6>(+91) 81003 50005</h6>
+                                    <p>info@devantitsolutions.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_1">
+                                    <img src="../../assets/images/location.png" alt="location">
+                                </div>
+                                <div class="contact">
+                                    <h6> Manhattan Hall,</h6>
+                                    <p>Copious Melbourne, New Yourk</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_1">
+                                    <img src="../../assets/images/clock.png" alt="clock">
+                                </div>
+                                <div class="contact">
+                                    <h6>11.00 – 8.00</h6>
+                                    <p>Monday to Saturday</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- header section end here -->
+
+<!-- navbar section start here -->
+<div class="container navSection">
+    <nav class="navbar navbar-expand-lg navbarBackGround" (scroll)="onscroll()"
+        [ngClass]="navbarfixed?'fixed':'nofixed'">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse styleNavbar" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="about-page">About us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn dropdown-toggle" href="#">Services</a>
+                        <div class="dropdown-content">
+                            <a class="nav-link" routerLink="graphics">
+                                <div class="dropdown dropdown1">
+                                    <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown"
+                                        routerLink="graphics">Graphics
+                                        Design</a>
+                                    <ul class="dropdown-menu dropdown11">
+                                        <li><a class="nav-link" routerLink="brochure-designing">Brochure Designing</a>
+                                        </li>
+                                        <li><a class="dropdown-item" routerLink="logo-corporate">Logo & Corporate ID
+                                                design</a></li>
+                                        <li><a class="dropdown-item" routerLink="animated-videos">Animated Videos</a>
+                                        </li>
+                                        <li><a class="dropdown-item" routerLink="graphics-infographic">Graphic &
+                                                Infographic</a></li>
+                                        <li><a class="dropdown-item" routerLink="illustration">Illustration</a></li>
+                                        <li><a class="dropdown-item" routerLink="power-point-design">PowerPoint
+                                                Design</a></li>
+                                    </ul>
+                                </div>
+                            </a>
+                            <a class="nav-link" routerLink="mobile-app">
+                                <div class="dropdown dropdown1">
+                                    <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown"
+                                        href="#">Mobile App
+                                        Development</a>
+                                    <ul class="dropdown-menu dropdown11">
+                                        <li><a class="dropdown-item" routerLink="android-app-development">Android App
+                                                Development</a></li>
+                                        <li><a class="dropdown-item" routerLink="app-store-optimization">App Store
+                                                Optimization</a></li>
+                                        <li><a class="dropdown-item" routerLink="mobile-game-development">Mobile Game
+                                                Development</a></li>
+                                        <li><a class="dropdown-item" routerLink="ios-app-development">Ios App
+                                                Development</a></li>
+                                    </ul>
+                                </div>
+                            </a>
+                            <a class="nav-link" routerLink="web-development">
+                                <div class="dropdown dropdown1">
+                                    <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown"
+                                        href="#">Web
+                                        Development</a>
+                                    <ul class="dropdown-menu dropdown11">
+                                        <li><a class="dropdown-item" routerLink="content-management-service">Content
+                                                Management Service</a></li>
+                                        <li><a class="dropdown-item"
+                                                routerLink="ecommerce-website-development-service">Ecommerce Website
+                                                Development</a></li>
+                                        <li><a class="dropdown-item" routerLink="api-development">Api Development</a>
+                                        </li>
+                                        <li><a class="dropdown-item"
+                                                routerLink="main-site-landing-page-design">Main-site OR Landing Page
+                                                Design</a></li>
+                                    </ul>
+                                </div>
+                            </a>
+                            <a class="nav-link" routerLink="digital-marketing">
+                                <div class="dropdown dropdown1">
+                                    <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown"
+                                        href="#">Digital
+                                        Marketing</a>
+                                    <ul class="dropdown-menu dropdown11">
+                                        <li><a class="dropdown-item" routerLink="social-media-marketing-service">Social
+                                                Media Marketing</a></li>
+                                        <li><a class="dropdown-item"
+                                                routerLink="social-media-optimization-service">Social Media
+                                                Optimization</a></li>
+                                        <li><a class="dropdown-item" routerLink="email-marketing">Email Marketing</a>
+                                        </li>
+                                        <li><a class="dropdown-item" routerLink="content-marketing">Content
+                                                Marketing</a></li>
+                                        <li><a class="dropdown-item" routerLink="best-seo-services-in-kolkata">Search
+                                                Engine Optimization</a></li>
+
+                                    </ul>
+                                </div>
+                            </a>
+                            <a class="nav-link" href="#">
+                                <div class="dropdown dropdown1">
+                                    <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown"
+                                        href="#">Othres
+                                        Services</a>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="projects">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="associates">Our Associates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="blogs">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="career">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</div>
+
+
+
+<!-- navbar section end here -->
+
+
+
+<!-- 
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ -->
