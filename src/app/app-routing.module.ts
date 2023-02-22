@@ -8,7 +8,12 @@ import { CareerComponent } from './career/career.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContentMarketingComponent } from './servicesPage/digital-marketing/content-marketing/content-marketing.component';
 import { DigitalMarketingComponent } from './servicesPage/digital-marketing/digital-marketing.component';
+import { EmailMarketingComponent } from './servicesPage/digital-marketing/email-marketing/email-marketing.component';
+import { SeoOptimizationComponent } from './servicesPage/digital-marketing/seo-optimization/seo-optimization.component';
+import { SocialMediaMarketingComponent } from './servicesPage/digital-marketing/social-media-marketing/social-media-marketing.component';
+import { SocialMediaOptimizationComponent } from './servicesPage/digital-marketing/social-media-optimization/social-media-optimization.component';
 import { AnimatedVideosComponent } from './servicesPage/graphics/animated-videos/animated-videos.component';
 import { BrochureDesigningComponent } from './servicesPage/graphics/brochure-designing/brochure-designing.component';
 import { GraphicsInfographicComponent } from './servicesPage/graphics/graphics-infographic/graphics-infographic.component';
@@ -85,7 +90,7 @@ const routes: Routes = [
     path: 'android-app-development', component: AndroidAppDevelopmentComponent
   },
   {
-    path: 'app-store-optimization-service', component: AppStoreOptimizationComponent
+    path: 'app-store-optimization', component: AppStoreOptimizationComponent
   },
   {
     path: 'mobile-game-development', component: MobileGameDevelopmentComponent
@@ -104,6 +109,21 @@ const routes: Routes = [
   },
   {
     path: 'landing-page-design', component: LandingPageDesignComponent
+  },
+  {
+    path: 'social-media-marketing', component: SocialMediaMarketingComponent
+  },
+  {
+    path: 'social-media-optimization', component: SocialMediaOptimizationComponent
+  },
+  {
+    path: 'email-marketing', component: EmailMarketingComponent
+  },
+  {
+    path: 'content-marketing', component: ContentMarketingComponent
+  },
+  {
+    path: 'best-seo-services-in-kolkata', component: SeoOptimizationComponent
   }
 ];
 
@@ -114,4 +134,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

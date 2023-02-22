@@ -31,6 +31,11 @@ import { ContentManagementComponent } from './servicesPage/web-development/conte
 import { EcommerceWebsiteDevelopmenComponent } from './servicesPage/web-development/ecommerce-website-developmen/ecommerce-website-developmen.component';
 import { ApiDevelopmentComponent } from './servicesPage/web-development/api-development/api-development.component';
 import { LandingPageDesignComponent } from './servicesPage/web-development/landing-page-design/landing-page-design.component';
+import { SocialMediaMarketingComponent } from './servicesPage/digital-marketing/social-media-marketing/social-media-marketing.component';
+import { SocialMediaOptimizationComponent } from './servicesPage/digital-marketing/social-media-optimization/social-media-optimization.component';
+import { EmailMarketingComponent } from './servicesPage/digital-marketing/email-marketing/email-marketing.component';
+import { ContentMarketingComponent } from './servicesPage/digital-marketing/content-marketing/content-marketing.component';
+import { SeoOptimizationComponent } from './servicesPage/digital-marketing/seo-optimization/seo-optimization.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +66,12 @@ import { LandingPageDesignComponent } from './servicesPage/web-development/landi
     ContentManagementComponent,
     EcommerceWebsiteDevelopmenComponent,
     ApiDevelopmentComponent,
-    LandingPageDesignComponent
+    LandingPageDesignComponent,
+    SocialMediaMarketingComponent,
+    SocialMediaOptimizationComponent,
+    EmailMarketingComponent,
+    ContentMarketingComponent,
+    SeoOptimizationComponent
   ],
   imports: [
     BrowserModule,
