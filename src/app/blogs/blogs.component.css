@@ -1,7 +1,7 @@
 /* ************************************************** */
-.blogSection{
-     margin-top: -70px;
-     z-index: -1;
+.blogSection {
+    margin-top: -70px;
+    z-index: -1;
 }
 
 .careersBackgroundImage {
@@ -102,7 +102,10 @@
     .blogCardSection h5 {
         font-size: 25px;
     }
-    
-}
 
+    .blogCardStyle h5 a {
+        font-size: 20px;
+    }
+
+}
 

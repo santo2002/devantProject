@@ -147,11 +147,14 @@
     left: 0;
 }
 
-
 .styleNavbar ul {
     padding: 8px;
 }
 
+/* onScroll css */
+.padding .listPadding {
+    padding-left: 100px;
+}
 
 .styleNavbar ul li {
     margin-right: 10px;
@@ -198,8 +201,8 @@
     color: #ef4136;
 }
 
-.dropDownLink{
-    padding: 2px 16px !important;
+.dropDownLink {
+    padding: 0px 16px !important;
 }
 
 .dropdown1 {
@@ -213,6 +216,7 @@
 }
 
 
+
 @media only screen and (max-width: 769px) {
     #navbarNav {
         text-align: center;
@@ -221,6 +225,16 @@
     .navbarBackGround {
         height: auto;
     }
+
+    .padding .listPadding {
+        padding-left:0px;
+    }
+    .dropdown11 {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+    
 }
 
 /*  navbar section end here */

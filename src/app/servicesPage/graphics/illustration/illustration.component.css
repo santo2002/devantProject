@@ -125,4 +125,11 @@
         display: none;
     }
 
+    .heading h3 {
+        color: #0e1032;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
 }
+

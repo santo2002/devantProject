@@ -33,7 +33,7 @@
                                     <img src="../../assets/images/call.png" alt="call">
                                 </div>
                                 <div class="contact">
-                                    <h6>(+91) 81003 50005</h6>
+                                    <h6>(+033) 4065 8041</h6>
                                     <p>info@devantitsolutions.com</p>
                                 </div>
                             </li>
@@ -75,8 +75,9 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse styleNavbar" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse styleNavbar" [ngClass]="navbarPadding? 'padding' :'notPadding' "
+                id="navbarNav">
+                <ul class="navbar-nav listPadding">
                     <li class="nav-item">
                         <a class="nav-link" routerLink="">Home</a>
                     </li>
@@ -109,8 +110,7 @@
                             <a class="nav-link">
                                 <div class="dropdown dropdown1">
                                     <a class="nav-link dropdown-toggle dropDownLink" data-bs-toggle="dropdown">Mobile
-                                        App
-                                        Development</a>
+                                        App Development</a>
                                     <ul class="dropdown-menu dropdown11">
                                         <li><a class="dropdown-item" routerLink="android-app-development">Android App
                                                 Development</a></li>
@@ -223,3 +223,5 @@
   </nav>
 
  -->
+
+

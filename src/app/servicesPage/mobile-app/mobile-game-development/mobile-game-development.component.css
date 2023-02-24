@@ -1,4 +1,3 @@
-
 .graphicSection {
     margin-top: -70px;
 }
@@ -153,7 +152,7 @@
     }
 
     .careers {
-        padding:0px 7px;
+        padding: 0px 7px;
     }
 
     .careers h1 {
@@ -163,6 +162,12 @@
 
     .careers p {
         display: none;
+    }
+
+    .heading h3 {
+        color: #0e1032;
+        font-size: 18px;
+        font-weight: 600;
     }
 
     .ourServices {

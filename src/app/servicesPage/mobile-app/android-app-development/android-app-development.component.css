@@ -169,5 +169,10 @@
         padding: 0px 0px;
         text-align: justify;
     }
+    .heading h3 {
+        color: #0e1032;
+        font-size: 18px;
+        font-weight: 600;
+    }
 
 }

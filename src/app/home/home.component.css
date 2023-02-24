@@ -94,6 +94,8 @@
     margin-right: 10px;
 }
 
+
+
 /* home section end here */
 
 /* cardSection start here */
@@ -238,7 +240,7 @@
 }
 
 .review .leftReview p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .rattingIcon i {
@@ -258,12 +260,18 @@
 }
 
 .review .rightReview p {
-    font-size: 15px;
+    font-size: 13px;
 }
+
+
 
 @media only screen and (max-width: 767px) {
     .cardStyle4 h2 {
         font-size: 28px;
+    }
+
+    .reviewSection .header h5 {
+        font-size: 15px;
     }
 }
 
@@ -297,7 +305,6 @@
     color: #fff;
     font-family: 'ABeeZee', sans-serif;
 }
-
 
 .leftPlaning p {
     color: #fff;
@@ -445,7 +452,7 @@
 
 /*  Blog section end here */
 
-.blogHeading{
+.blogHeading {
     padding: 20px 0px;
 }
 
@@ -620,8 +627,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .workProcess {
+        margin-top: 35px;
+    }
+
     .workProcess h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
