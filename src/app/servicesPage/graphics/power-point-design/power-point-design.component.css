@@ -102,7 +102,18 @@
 
 
 
+@media only screen and (max-width: 769px) {
+    .graphicSection {
+        margin-top: -55px;
+    }
+}
+
+
 @media only screen and (max-width: 767px) {
+
+    .graphicSection {
+        margin-top: -55px;
+    }
 
     .careersBackgroundImage {
         height: 220px;
@@ -113,12 +124,12 @@
     }
 
     .careers {
-        padding:0px 7px;
+        padding: 0px 7px;
     }
 
     .careers h1 {
         padding-top: 25px;
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .careers p {
@@ -131,4 +142,10 @@
         font-weight: 600;
     }
 
+    .heading {
+        padding: 0px 0px 15px 0px;
+    }
+
 }
+
+

@@ -73,8 +73,18 @@
     font-weight: 600;
 }
 
+@media only screen and (max-width: 769px) {
+    .blogSection {
+        margin-top: -55px;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
+    .blogSection {
+        margin-top: -55px;
+    }
+
     .careersBackgroundImage {
         height: 220px;
     }
@@ -91,9 +101,6 @@
         padding: 0px 7px;
     }
 
-    .careers h1 {
-        font-size: 33px;
-    }
 
     .careers p {
         display: none;

@@ -93,7 +93,18 @@ select {
     padding: 4px 68px;
 }
 
+@media only screen and (max-width: 769px) {
+    .careerSection {
+        margin-top: -55px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+
+    .careerSection {
+        margin-top: -55px;
+    }
+
     .careersBackgroundImage {
         height: 220px;
     }
@@ -111,7 +122,7 @@ select {
     }
 
     .careers h1 {
-        font-size: 33px;
+        font-size: 48px;
     }
 
     .careers p {
@@ -128,7 +139,6 @@ select {
         text-align: center;
     }
 }
-
 
 
 /* =============================================================== */

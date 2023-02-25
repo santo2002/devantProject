@@ -266,12 +266,19 @@
 
 
 @media only screen and (max-width: 767px) {
+    .homeSection {
+        margin-top: -55px;
+    }
     .cardStyle4 h2 {
         font-size: 28px;
     }
 
     .reviewSection .header h5 {
         font-size: 15px;
+    }
+
+    .cardTop {
+        padding-top: 40px;
     }
 }
 

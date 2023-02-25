@@ -116,8 +116,19 @@
 }
 
 
+@media only screen and (max-width: 769px) {
+    .associatesHeaderSection {
+        margin-top: -55px;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
+
+    .associatesHeaderSection{
+        margin-top: -55px;
+    }
+
     .associatesBackgroundImage {
         height: 220px;
     }
@@ -130,9 +141,6 @@
         padding: 0px 7px;
     }
 
-    .associates h1 {
-        font-size: 33px;
-    }
 
     .associates p {
         display: none;

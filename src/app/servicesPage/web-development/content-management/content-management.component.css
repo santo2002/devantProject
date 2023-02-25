@@ -1,4 +1,5 @@
 /* ********************************************** */
+
 .graphicSection {
     margin-top: -70px;
 }
@@ -100,7 +101,7 @@
     padding-top: 12px;
 }
 
-.webDevlopmentServices h2{
+.webDevlopmentServices h2 {
     font-size: 22px;
     font-weight: 600;
     text-align: center;
@@ -115,15 +116,15 @@
     border-radius: 5px;
 }
 
-.serviceCard h4{
-     color: #0e1032;
-     font-weight: 600;
-     font-size: 20px;
+.serviceCard h4 {
+    color: #0e1032;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-.serviceCard p{
-     color: #6c6c6c;
-     font-size: 13px;
+.serviceCard p {
+    color: #6c6c6c;
+    font-size: 13px;
 }
 
 
@@ -152,19 +153,19 @@
 }
 
 
-.ourBenefits{
+.ourBenefits {
     padding: 0px 10px;
     text-align: center;
 }
 
-.ourBenefits h3{
-     color: #ef4136;
+.ourBenefits h3 {
+    color: #ef4136;
 }
 
-.ourBenefits p{
-     text-align:justify;
-     color: #6c6c6c;
-     font-size: 15px;
+.ourBenefits p {
+    text-align: justify;
+    color: #6c6c6c;
+    font-size: 15px;
 }
 
 
@@ -187,7 +188,18 @@
 }
 
 
+
+@media only screen and (max-width: 769px) {
+    .graphicSection {
+        margin-top: -55px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+
+    .graphicSection {
+        margin-top: -55px;
+    }
 
     .careersBackgroundImage {
         height: 220px;
@@ -203,22 +215,26 @@
 
     .careers h1 {
         padding-top: 25px;
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .careers p {
         display: none;
     }
 
-    .ourServices {
-        padding: 0px 0px;
-        text-align: justify;
-    }
-
     .heading h3 {
         color: #0e1032;
         font-size: 18px;
         font-weight: 600;
+    }
+
+    .heading {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .ourServices {
+        padding: 0px 0px;
+        text-align: justify;
     }
 
 }

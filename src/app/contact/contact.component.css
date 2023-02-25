@@ -139,8 +139,19 @@
 }
 
 
+@media only screen and (max-width: 769px) {
+     .contactSection {
+         margin-top: -55px;
+     }
+ }
+
 
 @media only screen and (max-width: 767px) {
+
+     .contactSection {
+          margin-top: -55px;
+     }
+
      .contactBackgroundImage {
           height: 220px;
      }
@@ -154,7 +165,7 @@
      }
 
      .contact h1 {
-          font-size: 33px;
+          font-size: 48px;
      }
 
      .contact p {
@@ -290,3 +301,4 @@
           calc(var(--draw-duration) * 3),
           calc(var(--draw-duration) * 2);
 }
+
