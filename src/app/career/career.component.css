@@ -39,11 +39,13 @@
     font-family: 'ABeeZee', sans-serif;
 }
 
+
+
 /* ******************** */
 .formImg {
     background-image: url('../../assets/images/contactImages/windows-5EQkyNai6L0-unsplash1.jpg');
-    width: 100%;
-    height: 500px;
+    width: 90%;
+    height: 489px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -57,13 +59,33 @@
 }
 
 .formSection {
-    padding: 10px 25px;
+    background: #ef4136;
+    padding: 15px 30px;
 }
 
-/* .formSection .nameEmail {
-    display: flex;
-} */
+.formSection div {
+    padding-bottom: 8px;
+}
 
+.formHeading h3 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.formSection .nameEmail {
+    display: flex;
+}
+
+.nameEmail .name {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.nameEmail .email {
+    width: 50%;
+    margin-left: 10px;
+}
 
 
 .formSection .fileField,
@@ -83,7 +105,7 @@ select {
 
 .buttonForm {
     width: 200px;
-    background: #ef4136;
+    background: #1c1e3e;
     border-radius: 4px;
 }
 
@@ -93,52 +115,6 @@ select {
     padding: 4px 68px;
 }
 
-@media only screen and (max-width: 769px) {
-    .careerSection {
-        margin-top: -55px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-
-    .careerSection {
-        margin-top: -55px;
-    }
-
-    .careersBackgroundImage {
-        height: 220px;
-    }
-
-    .careersBackColor {
-        padding: 80px 0px 0px 0px;
-    }
-
-    .formImg {
-        display: none;
-    }
-
-    .careers {
-        padding: 0px 7px;
-    }
-
-    .careers h1 {
-        font-size: 48px;
-    }
-
-    .careers p {
-        display: none;
-    }
-
-    .formSection .nameEmail {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .buttonForm {
-        width: 100%;
-        text-align: center;
-    }
-}
 
 
 /* =============================================================== */
@@ -169,8 +145,8 @@ select {
 /* THREE */
 .custom-field.three {
     --draw-duration: 0.1s;
-    --draw-color: #ef4136;
-    --draw-line-width: 1px;
+    --draw-color: #1c1e3e;
+    --draw-line-width: 2px;
     --draw-easing: linear;
 }
 
@@ -246,3 +222,66 @@ select {
         calc(var(--draw-duration) * 3),
         calc(var(--draw-duration) * 2);
 }
+
+
+
+
+@media only screen and (max-width: 769px) {
+    .careerSection {
+        margin-top: -55px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .careerSection {
+        margin-top: -55px;
+    }
+
+    .careersBackgroundImage {
+        height: 220px;
+    }
+
+    .careersBackColor {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .formImg {
+        display: none;
+    }
+
+    .careers {
+        padding: 0px 7px;
+    }
+
+    .careers h1 {
+        font-size: 48px;
+    }
+
+    .careers p {
+        display: none;
+    }
+
+    .formSection .nameEmail {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameEmail .name {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .nameEmail .email {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .buttonForm {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+

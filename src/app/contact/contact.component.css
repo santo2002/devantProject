@@ -72,17 +72,16 @@
 
 .rightContact h3 {
      font-size: 22px;
+     color: #ef4136;
+     font-weight: 600;
 }
 
 .rightContact i {
-     color: #0e1032;
+     color: #ef4136;
      font-size: 32px;
      padding-right: 10px;
 }
 
-.rightContact h3 {
-     font-size: 24px;
-}
 
 
 

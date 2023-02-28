@@ -14,7 +14,6 @@
     width: 100%;
     background-image: url('../../assets/images/tile4020.png');
     padding: 0;
-    height: 98.6%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -32,6 +31,8 @@
      
 } */
 
+
+
 .videoText h3 {
     font-size: 50px;
     color: #fff;
@@ -43,6 +44,11 @@
     font-size: 30px;
     padding: 15px 0px;
     color: #fff;
+}
+
+.videoCollerText {
+    color: #ef4136;
+    font-size: 55px;
 }
 
 .developSlider {
@@ -127,7 +133,7 @@
 
 .cardStyle p span a {
     text-decoration: none;
-    color: #000;
+    color: #ef4136;
     font-weight: 600;
 }
 
@@ -196,7 +202,6 @@
 
 
 .cardStyle4 .text4 {
-    font-size: 15px;
     color: #444;
     padding-top: 10px;
 }
@@ -269,6 +274,7 @@
     .homeSection {
         margin-top: -55px;
     }
+
     .cardStyle4 h2 {
         font-size: 28px;
     }
@@ -280,7 +286,32 @@
     .cardTop {
         padding-top: 40px;
     }
+
+
+    .videoText {
+        padding: 20px 0px;
+    }
+
+    .videoText h3 {
+        font-size: 30px;
+    }
+
+    .videoText h4 {
+        font-size: 18px;
+        padding: 0px;
+    }
+
+    .videoText .videoCollerText {
+        font-size: 32px;
+    }
+
+    .developCard h5 {
+        text-align: center;
+        color: #000;
+        font-size: 10px;
+    }
 }
+
 
 /* cardImage section end here  */
 
@@ -579,16 +610,19 @@
 
 .workProcess .processText {
     font-size: 20px;
-    color: #ef4136;
+    color: #0e1032;
     text-transform: uppercase;
 }
 
 .workProcess h1 {
     font-size: 43px;
     font-family: 'ABeeZee', sans-serif;
-    color: #0e1032;
+    color: #ef4136;
     font-weight: 600;
 }
+
+
+
 
 .successCard {
     box-shadow: 0px 5px 5px #5555;
@@ -601,7 +635,7 @@
 }
 
 .successCardImg {
-    background: #ef4136;
+    background: #0e1032;
     padding: 20px 20px;
 }
 
@@ -633,6 +667,8 @@
     text-align: justify;
 }
 
+
+
 @media only screen and (max-width: 767px) {
 
     .workProcess {
@@ -649,15 +685,7 @@
 
 
 /* portfolio section start here  */
-/* .portfolioBackImg {
-    margin-top: 50px;
-    background-image: url("../../assets/images/our-portfolio-home-overly.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 470px;
-    z-index: -1;
-} */
+
 
 .portfolio {
     text-align: center;
@@ -740,60 +768,11 @@
     color: #000;
 }
 
+@media only screen and (max-width: 767px) {
+    .portfolio h2 {
+        font-size: 24px;
+    }
+}
+
 
 /* portfolio section end here  */
-
-
-
-
-
-
-/* .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-} */
-
-/* 
-.btnn{
-    background: none;
-    border: 2px solid black;
-    padding: 15px;
-    width: 200px;
-    margin: 10px;
-    position: relative;
-}
-.btnn:hover{
-    color: #fff;
-}
-.btnn::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    z-index: -1;
-    transition: all 0.6s;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-}
-
-.b1_btn::before{
-  transform: scaleX(0);
-}
-.b2_btn::before{
-  transform: scaleY(0);
-}
-
-.b1_btn:hover::before{
-    transform: scaleX(1);
-}
-
-.b2_btn:hover::before{
-    transform: scaleY(1);
-}
- */

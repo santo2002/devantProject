@@ -73,7 +73,7 @@
 }
 
 .logo img {
-    width: 120px;
+    width: 135px;
 }
 
 .contactIcon ul {
@@ -96,14 +96,14 @@
 }
 
 .contactIcon .contact h6 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     letter-spacing: 0.3px;
 }
 
 .contactIcon .contact p {
     color: #000000d1;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -227,14 +227,22 @@
     }
 
     .padding .listPadding {
-        padding-left:0px;
+        padding-left: 0px;
     }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .dropdown1 {
+        position: relative;
+    }
+
     .dropdown11 {
         position: absolute;
-        top: 10%;
-        left: 20%;
+        top: 70%;
+        left: 10%;
     }
-    
 }
+
 
 /*  navbar section end here */
